@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de Despesas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="LOGO_TOPO.jpg" alt="">
+    <hr>
+
+    <div class="container">
+        <h1>Lançamento de Despesas</h1>
+        <button id="addExpenseButton">Adicionar Despesa</button>
+        <div id="expenseFormContainer" style="display: none;">
+            <form id="expenseForm">
+                <input type="text" id="expenseName" placeholder="Nome da Despesa" required><br>
+                <input type="date" id="expenseDate" required><br>
+                <input type="number" id="expenseValue" placeholder="Valor" required><br>
+                <select id="expenseStatus" required>
+                    <option value="" disabled selected>Status</option>
+                    <option value="Pago">Pago</option>
+                    <option value="Pendente">Pendente</option>
+                </select><br>
+                <button type="submit">Adicionar</button>
+                <button type="button" id="cancelAddExpense">Cancelar</button>
+            </form>
+        </div>
+        <table id="expenseTable" border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Data</th>
+                    <th>Valor</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+    <footer>
+        <p>2024 - Jaderson Cunha</p>
+    </footer>
+</body>
+</html>

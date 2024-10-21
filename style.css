@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(202, 127, 102);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(28, 42, 98);
+    align-items: center;
+}
+
+#loginForm button{
+   background-color:rgb(28, 42, 98);
+   color: #ffffff;
+   margin: 10px;
+   }
+
+input, select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(28, 42, 98);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    align-items: center;
+}
+
+
+img {
+    position: absolute; 
+    top: 16px;          
+    left: 16px;  
+    width: 65px;       
+}
+
+h1 {
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button-group button {
+    width: 48%; 
+    padding: 10px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(28, 42, 98); 
+    color: rgb(5, 85, 21);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #000000; 
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+.filters {
+    margin-top: 20px;
+}
+
+#alert {
+    color: red;
+    font-weight: bold;
+}
+
+
+.nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(28, 42, 98);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
